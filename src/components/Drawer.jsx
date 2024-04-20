@@ -8,7 +8,8 @@ const Drawer = ({ isOpen, toggleDrawer, routes }) => {
   return (
     <>
       {isOpen && <Backdrop onClick={toggleDrawer} />}
-      <SDrawer className="Grotesk-Normal overflow-y-hidden bg-neutral-900 text-xl  text-white" isOpen={isOpen}>
+      <SDrawer className="Grotesk-Normal overflow-y-hidden fixed bg-neutral-900 text-xl  text-white" isOpen={isOpen}>
+        {/* Close button */}
         <RightNav>
         
           <NavRoutes>
@@ -29,6 +30,7 @@ const Drawer = ({ isOpen, toggleDrawer, routes }) => {
           </NavRoutes>
           <Link to="/contact" className="rounded-[5px] text-neutral-800 bg-yellow-400 p-2 ">Contact Us</Link>
         </RightNav>
+        <CloseButton onClick={toggleDrawer} className="text-xl ml-2">Close </CloseButton>
       </SDrawer>
     </>
   );
@@ -50,8 +52,8 @@ const Backdrop = styled.div`
 `;
 const SDrawer = styled.div`
   z-index: 150;
-  position: absolute;
-  top: 0;
+  position: fixed; /* Change position to fixed */
+  top: 0; /* Stick it to the top */
   height: 100vh;
   width: 70%;
   color: white;
@@ -82,4 +84,14 @@ const LoginButton = styled.button`
   transition: 0.3s ease;
   align-self: flex-start;
 
+`;
+
+const CloseButton = styled.button`
+  align-self: flex-end; /* Align to the right */
+  margin-right: 1rem; /* Add some margin for spacing */
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
 `;
