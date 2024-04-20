@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'Apercu';
+    src: url('Apercu-Light.woff2') format('woff2'),
+        url('Apercu-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('Apercu-Medium.woff2') format('woff2'),
+        url('Apercu-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('Apercu-Regular.woff2') format('woff2'),
+        url('Apercu-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: url('Apercu-Bold.woff2') format('woff2'),
+        url('Apercu-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+    line-height: 72px;
+}
+
+@font-face {
+    font-family: 'Apercu Mono';
+    src: url('Apercu-Mono.woff2') format('woff2'),
+        url('Apercu-Mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('ApercuPro-Light.woff2') format('woff2'),
+        url('ApercuPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('ApercuPro-Medium.woff2') format('woff2'),
+        url('ApercuPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('ApercuPro-Regular.woff2') format('woff2'),
+        url('ApercuPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Apercu Pro';
+    src: url('ApercuPro-Bold.woff2') format('woff2'),
+        url('ApercuPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Apercu Pro Mono';
+    src: url('ApercuPro-Mono.woff2') format('woff2'),
+        url('ApercuPro-Mono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Font';
+    src: url('Font.woff2') format('woff2'),
+        url('Font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font';
+    src: url('Font.woff2') format('woff2'),
+        url('Font.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Font';
+    src: url('Font.woff2') format('woff2'),
+        url('Font.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Font';
+    src: url('Font.woff2') format('woff2'),
+        url('Font.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.Apercu-Light{
+    font-family: 'Apercu';
+    font-weight: 300;
+}
+
+.Apercu-Medium{
+    font-family: 'Apercu';
+    font-weight: 500;
+}
+
+.Apercu-Regular{
+    font-family: 'Apercu';
+    font-weight: normal;
+}
+
+.Apercu-Bold{
+    font-family: 'Apercu';
+    font-weight: bolder;
+}
+
+.Apercu-Mono{
+    font-family: 'Apercu Mono';
+    font-weight: normal;
+}
+
+.Apercu-Pro-Light{
+    font-family: 'Apercu Pro';
+    font-weight: 300;
+}
+
+.Apercu-Pro-Medium{
+    font-family: 'Apercu Pro';
+    font-weight: 500;
+}
+
+.Apercu-Pro-Regular{
+    font-family: 'Apercu Pro';
+    font-weight: normal;
+}
+
+.Apercu-Pro-Bold{
+    font-family: 'Apercu Pro';
+    font-weight: bolder;
+}
+
+.Apercu-Pro-Mono{
+    font-family: 'Apercu Pro Mono';
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-Black.woff2') format('woff2'),
+        url('OverusedGrotesk-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-Bold.woff2') format('woff2'),
+        url('OverusedGrotesk-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-BlackItalic.woff2') format('woff2'),
+        url('OverusedGrotesk-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk Book';
+    src: url('OverusedGrotesk-Book.woff2') format('woff2'),
+        url('OverusedGrotesk-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-BoldItalic.woff2') format('woff2'),
+        url('OverusedGrotesk-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk Book';
+    src: url('OverusedGrotesk-BookItalic.woff2') format('woff2'),
+        url('OverusedGrotesk-BookItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-LightItalic.woff2') format('woff2'),
+        url('OverusedGrotesk-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-Italic.woff2') format('woff2'),
+        url('OverusedGrotesk-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-ExtraBoldItalic.woff2') format('woff2'),
+        url('OverusedGrotesk-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-ExtraBold.woff2') format('woff2'),
+        url('OverusedGrotesk-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-Medium.woff2') format('woff2'),
+        url('OverusedGrotesk-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-MediumItalic.woff2') format('woff2'),
+        url('OverusedGrotesk-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-Light.woff2') format('woff2'),
+        url('OverusedGrotesk-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-SemiBold.woff2') format('woff2'),
+        url('OverusedGrotesk-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-SemiBoldItalic.woff2') format('woff2'),
+        url('OverusedGrotesk-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Overused Grotesk';
+    src: url('OverusedGrotesk-Regular.woff2') format('woff2'),
+        url('OverusedGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'The Bold Font';
+    src: url('TheBoldFont-Bold.woff2') format('woff2'),
+        url('TheBoldFont-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Heavitas';
+    src: url('Heavitas.woff2') format('woff2'),
+        url('Heavitas.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.Heavitas{
+    font-family: 'Heavitas';
+    font-weight: normal;
+}
+
+.Bold-Font{
+    font-family: 'The Bold Font';
+    font-weight: bold;
+}
+
+.Grotesk-Black{
+    font-family: 'Overused Grotesk';
+    font-weight: 600;
+}
+
+.Grotesk-Normal{
+    font-family: 'Overused Grotesk';
+    font-weight: 400;
+}
+.Grotesk-Medium{
+    font-family: 'Overused Grotesk';
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Articulat CF';
+    src: url('ArticulatCF-Medium.woff2') format('woff2'),
+        url('ArticulatCF-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.Arti{
+    font-family:'Articulat CF';
+    font-weight: 500;
+}
