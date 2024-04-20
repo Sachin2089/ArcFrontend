@@ -29,7 +29,7 @@ const LINKS = [
     title: "Services",
     items: [
       { name: "Arc Planeterium", path: "/services/arc-planeterium" },
-      { name: "Astronomy Workshop", path: "/services/arc-atronomy-workshop"},
+      { name: "Astronomy Workshop", path: "/services/arc-astronomy-workshop"},
       { name: "AstroCamp", path: "/services/astrocamp" },
       { name: "Astronomy Club", path: "/services/astronomy-club" },
       { name: "Astronomy Labs", path: "/services/astronomy-labs" },

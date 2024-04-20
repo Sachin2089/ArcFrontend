@@ -73,7 +73,7 @@ const Intro = () => {
             </button> */}
 
 
-            <Link to = "/registrationLadakh"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+            <Link to = "https://forms.gle/XrBtmJSrS6aPWxyz7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
               <button >
                   Register Now
                 </button>
@@ -118,7 +118,7 @@ const Batchdetails = () =>{
 
       </div>
 
-      <Link to = "/registrationLadakh"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+      <Link to = "https://forms.gle/XrBtmJSrS6aPWxyz7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
               <button >
                   Register Now
                 </button>
@@ -400,7 +400,7 @@ const TicketCosting = () => {
 const RegistrationButton = () => {
   return (
     <section className="py-8 text-center">
-     <Link to = "/registrationLadakh"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+     <Link to = "https://forms.gle/XrBtmJSrS6aPWxyz7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
               <button >
                   Register Now
                 </button>

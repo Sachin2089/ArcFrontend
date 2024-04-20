@@ -69,7 +69,7 @@ const Intro = () => {
             </button> */}
 
 
-            <Link to = "/registrationDahanu"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+            <Link to = "https://forms.gle/2CCKBcaxujx4tV3u7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
               <button >
                 Register
               </button>
@@ -105,7 +105,7 @@ const Batchdetails = () =>{
 
       </div> 
 
-      <Link to = "/registrationDahanu"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-2 px-6  justify-center  rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+      <Link to = "https://forms.gle/2CCKBcaxujx4tV3u7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-2 px-6  justify-center  rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
               <button >
                 Register
                 </button>
@@ -270,7 +270,7 @@ const TicketCosting = () => {
 const RegistrationButton = () => {
   return (
     <section className="py-8 text-center">
-     <Link to = "/registrationDahanu"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+     <Link to = "https://forms.gle/2CCKBcaxujx4tV3u7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
               <button >
                   Register Now
                 </button>
