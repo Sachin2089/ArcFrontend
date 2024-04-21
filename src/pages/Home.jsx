@@ -229,7 +229,7 @@ function Home() {
                   </h1>
                 </motion.div>
               </Link>
-              <Link to="/services/astronomy-labs">
+              <Link to="/services/astrocamp">
                 <motion.div
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
@@ -245,7 +245,7 @@ function Home() {
                   </h1>
                 </motion.div>
               </Link>
-              <Link to="/services/astronomy-labs">
+              <Link to="/services/astronomy-club">
                 <motion.div
                   initial={{ opacity: 0 }}
                   whileInView={{ opacity: 1 }}
