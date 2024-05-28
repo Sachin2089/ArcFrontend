@@ -40,7 +40,7 @@ const LINKS = [
 const currentYear = new Date().getFullYear();
 export default function Footer() {
   return (
-    <footer className="relative w-full pt-10 border-t border-[#333333] bg-[#1c1d22]">
+    <footer className="relative w-full pt-10 border-t border-[#333333] bg-[#1c1d22] lg:-mt-28 -mt-28">
       <div className="mx-auto w-full max-w-7xl px-8">
         <div className="grid grid-cols-1 items-center gap-4 md:grid-cols-2">
           <img src={Logo} className="mr-3  lg:h-32 h-16" alt="Logo" />

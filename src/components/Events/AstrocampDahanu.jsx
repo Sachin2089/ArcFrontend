@@ -54,14 +54,14 @@ const Intro = () => {
           </p>
           
            
-            <div className=' flex flex-row gap-x-32 '>
+            {/* <div className=' flex flex-row gap-x-32 '>
               <div className='flex flex-col items-center justify-center'>
                 <div className=' rounded-md  px-1 py-2 mt-3 bg-white  text-center Grotesk-Black flex  justify-center items-center gap-2  '>
                  <FaCalendarDays className=' text-black text-4xl'/>
                   <span className='  text-3xl text-black '> 27th April </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
 
             {/* <button className=" Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
@@ -69,11 +69,15 @@ const Intro = () => {
             </button> */}
 
 
-            <Link to = "https://forms.gle/2CCKBcaxujx4tV3u7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+            {/* <Link to = "#"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
               <button >
-                Register
+                Will be back in October
               </button>
-            </Link>
+            </Link> */}
+
+              <button className='className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]'>
+                Will be back in October
+              </button>
           
 
         
@@ -94,7 +98,7 @@ const Batchdetails = () =>{
           session, participants get the chance to marvel at the celestial beauty above, guided by knowledgeable astronomers. 
           </p>
       </div>
-
+{/* 
       <div className='flex flex-col'>
         <div>
             <div className=' rounded-md  px-1 py-2 mt-3 bg-black mr-32 flex flex-row gap-3 items-center  '>
@@ -103,13 +107,17 @@ const Batchdetails = () =>{
             </div>
         </div>
 
-      </div> 
+      </div>  */}
 
-      <Link to = "https://forms.gle/2CCKBcaxujx4tV3u7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-2 px-6  justify-center  rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+      {/* <Link to = "https://forms.gle/2CCKBcaxujx4tV3u7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-2 px-6  justify-center  rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
               <button >
                 Register
                 </button>
-        </Link>
+        </Link> */}
+
+        <button className="Grotesk-Black hover:bg-opacity-100 bg-opacity-30 -ml-[3px] bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+          Will be back in October
+        </button>
 
       
       <div class="h-0 w-full  text-center border-gray-500 my-5">
@@ -160,7 +168,7 @@ const Details = () => {
           <li className='list-disc leading-6 py-2'>5:30 PM - Snacks and tea.</li>
           <li className='list-disc leading-6 py-2'>6:00 PM - Tent allotment</li>
           <li className='list-disc leading-6 py-2'>6:30 PM - Introduction session</li>
-          <li className='list-disc leading-6 py-2'>7:00 PM - Jupiter observation through telescopes. Naked eye observation of man-made satellites.</li>
+          <li className='list-disc leading-6 py-2'>7:00 PM - Planet observation through telescopes. Naked eye observation of artificial satellites.</li>
           <li className='list-disc leading-6 py-2'>7:30 PM - Introduction to Astronomy & Stargazing.</li>
           <li className='list-disc leading-6 py-2'>9:00 PM - Telescopic observation.</li>
           <li className='list-disc leading-6 py-2'>10:00 PM - Dinner</li>
@@ -168,7 +176,7 @@ const Details = () => {
           <li className='list-disc leading-6 py-2'>12:30 AM - Tea time</li>
           <li className='list-disc leading-6 py-2'>01:00 AM - Midnight sky session</li>
           <li className='list-disc leading-6 py-2'>02:00 AM - Telescopic observation</li>
-          <li className='list-disc leading-6 py-2'>02:30 AM - Campfire games and activities</li>
+          <li className='list-disc leading-6 py-2'>02:30 AM - Campfire, games and activities</li>
           <li className='list-disc leading-6 py-2'>03:00 AM - Lights off</li>
           <li className='list-disc leading-6 py-2'>07:00 AM - Wake-up call</li>
           <li className='list-disc leading-6 py-2'>08:00 AM - Tea and breakfast</li>
@@ -202,15 +210,15 @@ const Inclusion = () =>{
     <div  >
 
 
-      <section className='sm:w-9/12 w-11/12 mx-auto py-8 Grotesk-Normal'>
-        <h2 className='font-bold  md:text-[20px]  text-3xl  bg-[#ADD8E6] p-2 text-black  rounded-md'>Inclusion</h2>
+      <section className='sm:w-9/12 w-11/12 mx-auto pt-6 Grotesk-Normal'>
+        <h2 className='font-bold  md:text-[30px]  text-3xl  bg-[#ADD8E6] p-2 text-black  rounded-md'>Inclusion</h2>
         <div className='leading-4'>
 
         
-          <li className='list-disc leading-6 py-2'>Transportation from Dadar to Sandhan Valley and back</li>
+          <li className='list-disc leading-6 py-2'>Transportation from Dahanu Station to Campsite and back</li>
           <li className='list-disc leading-6 py-2'>Includes 3 teas, breakfast, snacks, dinner</li>
           <li className='list-disc leading-6 py-2'>Entry fee and camping tent for stay, with 3 people sharing per tent</li>
-          <li className='list-disc leading-6 py-2'>Couples can opt for a 2-person tent with an additional charge of Rs 200 per person</li>
+          <li className='list-disc leading-6 py-2'>Couples can opt for a 2-person tent with an additional charge of Rs 400 per tent</li>
           <li className='list-disc leading-6 py-2'>To and fro transport from Dahanu railway station (extra cost)</li>
     
 
@@ -219,18 +227,18 @@ const Inclusion = () =>{
         </div>
       </section>
 
-      <section className='sm:w-9/12 w-11/12 mx-auto Grotesk-Normal'>
-        <h2 className='font-bold    md:text-[20px] text-3xl  p-2  rounded-md bg-[#ADD8E6] text-black'>Exclusion</h2>
+      <section className='sm:w-9/12 w-11/12 pt-6 mx-auto Grotesk-Normal'>
+        <h2 className='font-bold    md:text-[30px] text-3xl  p-2  rounded-md bg-[#ADD8E6] text-black'>Exclusion</h2>
         <div className='leading-4'>
-
+        <li className='list-disc leading-6 py-2'>Transportation from Dahanu Station to Campsite and back</li>
           <li className='list-disc leading-6 py-2'>Any Beverages or any food not mentioned in the itinerary</li> 
           <li className='list-disc leading-6 py-2'> Travel till Dahanu</li> 
         </div>
       </section>
 
       {/*Cancelation Policy*/}
-      <div className=' sm:w-9/12 w-11/12 mx-auto py-8 Grotesk-Normal'>
-          <h2 className='font-bold  md:text-[20px] text-3xl  bg-[#ADD8E6]  text-black p-2  rounded-md'>Cancellation Policy </h2>
+      <div className=' sm:w-9/12 w-11/12 mx-auto pt-6 Grotesk-Normal pb-6'>
+          <h2 className='font-bold  md:text-[30px] text-3xl  bg-[#ADD8E6]  text-black p-2  rounded-md'>Cancellation Policy </h2>
           
           <li className='list-disc leading-6 py-2'>Full refund if cancelled 4 days prior to event.</li>
           <li className='list-disc leading-6 py-2'>50% refund if cancelled 2 days prior to event.</li>
@@ -252,12 +260,15 @@ const TicketCosting = () => {
         <tbody className=''>
           <tr>
             <td className="border border-white px-4 py-2  text-center w-1/2 text-[21px] ">Astrocamp Cost </td>
-            <td className="border border-white px-4 py-3  text-center  text-[20px]"> ₹ 1,500</td>
+            <td className="border border-white px-4 py-3  text-center  text-[20px]"> ₹ 1,700</td>
           </tr>
           <tr>
-            <td className="border  border-white px-4 py-3  text-center w-1/2 text-[20px]">Tansportation cost </td>
-            <td className="border border-white px-4 py-3 text-center  text-[20px]">₹ 100</td>
-            
+            <td className="border  border-white px-4 py-3  text-center w-1/2 text-[20px]">Couple Tent </td>
+            <td className="border border-white px-4 py-3 text-center  text-[20px]">₹ 400 </td>   
+          </tr>
+          <tr>
+            <td className="border  border-white px-4 py-3  text-center w-1/2 text-[20px]">Transportation</td>
+            <td className="border border-white px-4 py-3 text-center  text-[20px]">₹ 100 </td>   
           </tr>
         </tbody>
     

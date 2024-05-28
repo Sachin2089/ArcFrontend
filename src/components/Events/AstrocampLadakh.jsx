@@ -2,13 +2,13 @@ import { useEffect } from 'react';
 import React from 'react';
 import Videostar from '../Videostar';
 import ImageSliderSpiti from './ImageSlider/ImageSliderSpiti';
-import ladakh2 from '../../assets/Ladakh/ladakh12.jpg'
-import ladakh3 from '../../assets/Ladakh/ladakh5.jpg'
-import ladakh1 from '../../assets/Ladakh/ladakh6.jpg'
-import ladakh4 from '../../assets/Ladakh/ladakh8.jpg'
-import ladakh5 from '../../assets/Ladakh/ladakh9.jpg'
-import ladakh6 from '../../assets/Ladakh/ladakh10.jpg'
-import ladakh7 from '../../assets/Ladakh/ladakh4.jpg'
+import ladakh2 from '../../assets/Ladakh/ladakh2.jpg'
+import ladakh3 from '../../assets/Ladakh/ladakh3.jpg'
+import ladakh1 from '../../assets/Ladakh/ladakh1.jpg'
+import ladakh4 from '../../assets/Ladakh/ladakh4.jpg'
+import ladakh5 from '../../assets/Ladakh/ladakh5.jpg'
+import ladakh6 from '../../assets/Ladakh/ladakh6.jpg'
+import ladakh7 from '../../assets/Ladakh/ladakh7.jpg'
 
 import "../../fonts/stylesheet.css";
 import {Link} from 'react-router-dom'
@@ -72,12 +72,19 @@ const Intro = () => {
               Register Now
             </button> */}
 
-
-            <Link to = "https://forms.gle/XrBtmJSrS6aPWxyz7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
-              <button >
-                  Register Now
-                </button>
-            </Link>
+            <div className='flex flex-row'>
+                <Link to = "https://forms.gle/XrBtmJSrS6aPWxyz7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+                  <button >
+                      Register Now
+                    </button>
+                </Link>
+                <Link to = "https://drive.google.com/file/d/1TJMtB1ByLiTe-t1qxYqglGHdB8BdPqpr/view?usp=drive_link"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+                  <button >
+                    Brochure
+                  </button>
+                </Link>  
+            </div>
+           
           
         </div>
       </div>
@@ -118,11 +125,18 @@ const Batchdetails = () =>{
 
       </div>
 
-      <Link to = "https://forms.gle/XrBtmJSrS6aPWxyz7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
-              <button >
-                  Register Now
+      <div className='flex flex-row gap-4 justify-between items-center -ml-6'>
+        <Link to = "https://forms.gle/XrBtmJSrS6aPWxyz7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px] ">
+            <button >
+                Register Now
+              </button>
+        </Link>
+        <Link to = "https://drive.google.com/file/d/1TJMtB1ByLiTe-t1qxYqglGHdB8BdPqpr/view?usp=drive_link"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px] -ml-8">
+                <button >
+                  Brochure
                 </button>
         </Link>
+      </div>
       <div class="h-0 w-full  text-center border-gray-500 my-5">
         <span class="inline-block w-2 h-2 mx-4 bg-gray-500 rounded-full"></span>
         <span class="inline-block w-2 h-2 mx-4 bg-gray-500 rounded-full"></span>
@@ -259,7 +273,6 @@ const Details = () => {
               telescope. Learn and experience 21st century astronomy from experts at IAO.</li>
           <li className='list-disc leading-6 py-2'>Visit to Hagar telescope and learn about Multiwavelenght Astronomy.</li>
           <li className='list-disc leading-6 py-2'>At night capture the milkyway, timelapse videos and star trails using your phone/DSLR.</li>
-          
 
         </div>
       </div>
@@ -304,7 +317,7 @@ const Inclusion = () =>{
     <div  >
 
 
-      <section className='sm:w-9/12 w-11/12 mx-auto py-8 Grotesk-Normal'>
+      <section className='sm:w-9/12 w-11/12 mx-auto  Grotesk-Normal'>
         <h2 className='font-bold  md:text-[35px]  text-3xl uppercase bg-[#ADD8E6] p-2 text-black  rounded-md'>Inclusion</h2>
         <div className='leading-4'>
 
@@ -320,7 +333,7 @@ const Inclusion = () =>{
         </div>
       </section>
 
-      <section className='sm:w-9/12 w-11/12 mx-auto Grotesk-Normal'>
+      <section className='sm:w-9/12 w-11/12 mx-auto mt-8 Grotesk-Normal'>
         <h2 className='font-bold    md:text-[35px] text-3xl  p-2  rounded-md bg-[#ADD8E6] text-black'>EXCLUSIONS</h2>
         <div className='leading-4'>
 

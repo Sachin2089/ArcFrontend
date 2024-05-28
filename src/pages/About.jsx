@@ -19,7 +19,7 @@ function About() {
   }, []);
   return (
     <div className="min-h-screen lg:px-[220px] bg-[#0B0B0F] py-8 lg:pt-32 flex items-center justify-center columns-3 flex-wrap gap-4">
-      <div className="flex md:flex-row flex-col items-center justify-center md:h-[600px] sm:auto mt-4  w-full">
+      <div className="flex md:flex-row flex-col items-center justify-center md:h-[600px] sm:auto   w-full">
         <motion.div
           initial="hidden"
           animate="show"
@@ -34,10 +34,10 @@ function About() {
           </motion.h1>
           <motion.p
             variants={addFadeup}
-            className="xl:text-2xl text-base text-justify  Grotesk-Normal xl:text-left text-neutral-400 xl:mb-10 mb-4 p-8 xl:p-0  xl:pr-20"
+            className="xl:text-2xl text-base text-justify  Grotesk-Normal xl:text-left text-neutral-400 xl:mb-2 mb-4 p-8 xl:p-0  xl:pr-20"
           >
-            In 2016, amateur astronomers in Mumbai embarked on a mission to
-            revolutionize education through the wonders of the cosmos. <br></br>
+            <span className="ml-12">In</span> 2016, amateur astronomers in Mumbai embarked on a mission to
+            revolutionize education through the wonders of the cosmos.
             Thus, Arc Educators was born, a visionary ed-tech startup dedicated
             to igniting a passion for astronomy in learners of all ages. With a
             shared love for the stars and a desire to make astronomy accessible
@@ -52,11 +52,11 @@ function About() {
           <img
             src={BG}
             alt=""
-            className=" rounded-[8px] h-fit w-full bg-cover border-4 border-white"
+            className=" rounded-[8px] h-fit w-full bg-cover border-4 lg:border-white border-black"
           />
         </motion.div>
       </div>
-      <div className="flex md:flex-row flex-col lg:mt-24 items-center justify-center lg:h-[720px] sm:auto -mt-14  w-full">
+      <div className="flex md:flex-row flex-col lg:-mt-24 items-center  justify-center lg:h-[720px] sm:auto -mt-14  w-full">
         <motion.div
           initial={{ opacity: 0 }}
           whileInView={{opacity:1}}
@@ -67,7 +67,7 @@ function About() {
           <img
             src={pic2}
             alt=""
-            className=" rounded-[8px] h-fit w-full bg-cover border-4 border-white  md:p-0 md:mt-0 mt-12  md:mb-0 mb-8"
+            className=" rounded-[8px] h-fit w-full bg-cover border-4 lg:border-white border-black  md:p-0 md:mt-0 mt-24  md:mb-0 mb-8"
           />
         </motion.div>
         <div className=" md:w-[50%] w-full flex flex-col items-start justify-center md:ml-24">
@@ -92,13 +92,13 @@ function About() {
 
       <div>
         <div className="mx-auto">
-          <h1 className="text-center md:text-6xl text-[30px] rounded-md Grotesk-Normal lg:mt-32 text-white  md:mt-0 mt-10 mb-8 lg:mb-0" >
+          <h1 className="text-center md:text-6xl text-[30px] rounded-md Grotesk-Normal text-white  md:mt-0 mt-10 mb-8 lg:mb-0" >
             Founders
           </h1>
           <div>
-            <div className="flex md:flex-row flex-col md:gap-20 md:-mt-0">
+            <div className="flex md:flex-row flex-col md:gap-20 md:-mt-9">
               <div class="flex items-center justify-center md:-mt-5">
-                <div class="rounded-md group relative cursor-pointer overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/40 mx-1">
+                <div class="rounded-md group relative cursor-pointer overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/40 mx-1 md:mb-0 -mb-28">
                   <div class="h-[30rem] w-[21rem] ">
                     <img
                       class="h-full w-full object-cover transition-transform duration-500 group-hover:rotate-3 group-hover:scale-125"
@@ -124,7 +124,7 @@ function About() {
 
               {/* Founder 2 */}
 
-              <div class="flex min-h-screen items-center justify-center md:-mt-6">
+              <div class="flex min-h-screen items-center justify-center md:-mt-6 md:mb-0 -mb-32">
                 <div class="rounded-md group relative cursor-pointer overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/40 mx-1">
                   <div class="h-[30rem] w-[21rem]">
                     <img
@@ -166,7 +166,7 @@ function About() {
           </h1>
           <div>
             <div class=" flex min-h-screen items-center justify-center mt-24 ">
-              <div class=" grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mb-10">
+              <div class=" grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 mb-10 gap-y-16 md:gap-y-8 ">
                 <div class="rounded-md group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
                   <div class="h-96 w-80">
                     <img

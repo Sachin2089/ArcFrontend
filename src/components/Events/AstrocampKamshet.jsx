@@ -50,7 +50,7 @@ const Intro = () => {
           </p>
           
            
-            <div className=' flex flex-row gap-x-32  justify-center '>
+            {/* <div className=' flex flex-row gap-x-32  justify-center '>
               <div className='flex flex-col items-center justify-center'>
                 <div className=' rounded-md  px-1 py-2 mt-3 bg-white  text-center Grotesk-Black flex  justify-center items-center gap-2  '>
                  <FaCalendarDays className=' text-black text-4xl'/>
@@ -63,7 +63,7 @@ const Intro = () => {
                   <span className='  text-3xl text-black '> 4th May </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
 
             {/* <button className=" Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
@@ -71,11 +71,14 @@ const Intro = () => {
             </button> */}
 
 
-            <Link to = "https://forms.gle/MuoMzwq1oFajKvjr9"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+            {/* <Link to = "https://forms.gle/MuoMzwq1oFajKvjr9"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
               <button >
                 Register
               </button>
-            </Link>
+            </Link> */}
+             <button className="Grotesk-Black hover:bg-opacity-100 bg-opacity-30  bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+              Will be back in October
+            </button>
           
 
         
@@ -99,7 +102,7 @@ const Batchdetails = () =>{
       </div>
 
       <div className='flex flex-col'>
-        <div>
+        {/* <div>
             <div className=' rounded-md  px-1 py-2 mt-3 bg-black mr-32 flex flex-row gap-3 items-center  '>
             <FaCalendarDays className=' text-white text-xl '/>
               <span className=' text-xl font-bold text-white'> 27th April</span>
@@ -110,15 +113,18 @@ const Batchdetails = () =>{
             <FaCalendarDays className=' text-white text-xl '/>
               <span className=' text-xl font-bold text-white'> 4th May</span>
             </div>
-        </div>
-
+        </div> */}
       </div> 
 
-      <Link to = "https://forms.gle/MuoMzwq1oFajKvjr9"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-2 px-6  justify-center  rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+      {/* <Link to = "https://forms.gle/MuoMzwq1oFajKvjr9"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-2 px-6  justify-center  rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
               <button >
                 Register
                 </button>
-        </Link>
+        </Link> 
+        */}
+        <button className="Grotesk-Black hover:bg-opacity-100 bg-opacity-30 -ml-[3px] bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px] mb-3">
+          Will be back in October
+        </button>
 
       
       <div class="h-0 w-full  text-center border-gray-500 my-5">
@@ -136,7 +142,7 @@ const Batchdetails = () =>{
 
 const Details = () => {
   return (
-    <section className=' sm:w-9/12 w-11/12 mx-auto py-8  Grotesk-Normal lg:px-0 px-2 top-10 text-justify'>
+    <section className=' sm:w-9/12 w-11/12 mx-auto pt-8  Grotesk-Normal lg:px-0 px-2 top-10 text-justify'>
       
      <h2 className='font-bold  md:text-[35px] text-4xl '> Event Details</h2>
       <div>
@@ -211,8 +217,8 @@ const Inclusion = () =>{
     <div  >
 
 
-      <section className='sm:w-9/12 w-11/12 mx-auto py-8 Grotesk-Normal'>
-        <h2 className='font-bold  md:text-[20px]  text-3xl  bg-[#ADD8E6] p-2 text-black  rounded-md'>Inclusion</h2>
+      <section className='sm:w-9/12 w-11/12 mx-auto pt-6 Grotesk-Normal'>
+        <h2 className='font-bold  md:text-[30px]  text-3xl  bg-[#ADD8E6] p-2 text-black  rounded-md'>Inclusion</h2>
         <div className='leading-4'>
 
       
@@ -227,8 +233,8 @@ const Inclusion = () =>{
         </div>
       </section>
 
-      <section className='sm:w-9/12 w-11/12 mx-auto Grotesk-Normal'>
-        <h2 className='font-bold    md:text-[20px] text-3xl  p-2  rounded-md bg-[#ADD8E6] text-black'>Exclusion</h2>
+      <section className='sm:w-9/12 w-11/12 mx-auto pt-6 Grotesk-Normal'>
+        <h2 className='font-bold    md:text-[30px] text-3xl  p-2  rounded-md bg-[#ADD8E6] text-black'>Exclusion</h2>
         <div className='leading-4'>
 
           <li className='list-disc leading-6 py-2'>Any Beverages or any food not mentioned in the itinerary</li> 
@@ -237,8 +243,8 @@ const Inclusion = () =>{
       </section>
 
       {/*Cancelation Policy*/}
-      <div className=' sm:w-9/12 w-11/12 mx-auto py-8 Grotesk-Normal'>
-          <h2 className='font-bold  md:text-[20px] text-3xl  bg-[#ADD8E6]  text-black p-2  rounded-md'>Cancellation Policy </h2>
+      <div className=' sm:w-9/12 w-11/12 mx-auto pt-6 pb-6 Grotesk-Normal'>
+          <h2 className='font-bold  md:text-[30px] text-3xl  bg-[#ADD8E6]  text-black p-2  rounded-md'>Cancellation Policy </h2>
           
           <li className='list-disc leading-6 py-2'>Full refund if cancelled 4 days prior to event.</li>
           <li className='list-disc leading-6 py-2'>50% refund if cancelled 2 days prior to event.</li>

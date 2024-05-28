@@ -7,6 +7,7 @@ import spiti2 from '../../assets/Spiti/spiti2.jpg'
 import spiti3 from '../../assets/Spiti/spiti3.jpg'
 import spiti4 from '../../assets/Spiti/spiti4.jpg'
 import spiti5 from '../../assets/Spiti/spiti5.jpg'
+import spiti6 from '../../assets/Spiti/spiti6.jpg'
 import "../../fonts/stylesheet.css";
 import {Link} from 'react-router-dom'
 
@@ -16,6 +17,7 @@ const slides = [
   { url: spiti3, alt: "spiti Three" },  
   { url: spiti4, alt: "spiti Three" },  
   { url: spiti5, alt: "spiti Five" },
+  { url: spiti6, alt: "spiti Six" },
 ]
 const Intro = () => {
   return (
@@ -45,10 +47,10 @@ const Intro = () => {
             <div className=' flex flex-row items-center justify-center gap-x-32 '>
               <div className='flex flex-col items-center justify-center'>
                 <div className=' rounded-md  px-1 py-2 mt-3 bg-white  text-center Grotesk-Black '>
-                  <span className='mt-4 text-lg text-black'> Batch 1: 10th May 2024</span>
+                  <span className='mt-4 text-lg text-black'> Batch 1: 10th to 20th May 2024</span>
                 </div>
                 <div className='rounded-md  px-1 py-2 mt-3 bg-white  text-center Grotesk-Black '>
-                  <span className='mt-4 text-lg text-black'> Batch 2: 7th June 2024</span>
+                  <span className='mt-4 text-lg text-black'> Batch 2: 7th to 17th June 2024</span>
                 </div>
               </div>
 
@@ -68,11 +70,18 @@ const Intro = () => {
             </button> */}
 
 
-            <Link to = "https://forms.gle/2fNcbrY6R9NDBMbg7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
-              <button >
-                  Register Now
+           <div className='flex flex-row'>
+              <Link to = "https://forms.gle/2fNcbrY6R9NDBMbg7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+                <button >
+                    Register Now
+                  </button>
+              </Link>
+              <Link to = "https://drive.google.com/file/d/1fOTLtXukO400xKLRIjELE-KgAalGNTUf/view?usp=drive_link"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
+                <button >
+                  Brochure
                 </button>
-            </Link>
+              </Link>  
+           </div>
           
         </div>
       </div>
@@ -115,11 +124,18 @@ const Batchdetails = () =>{
       </div>
 
       
-      <Link to = "https://forms.gle/2fNcbrY6R9NDBMbg7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px]">
-          <button >
-              Register Now
-            </button>
-      </Link>
+      <div className='flex flex-row gap-4 justify-between items-center -ml-6'>
+        <Link to = "https://forms.gle/2fNcbrY6R9NDBMbg7"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px] ">
+            <button >
+                Register Now
+              </button>
+        </Link>
+        <Link to = "https://drive.google.com/file/d/1fOTLtXukO400xKLRIjELE-KgAalGNTUf/view?usp=drive_link"  target =  "_blank" className= "Grotesk-Black hover:bg-opacity-100 bg-opacity-30 bg-[#1779f4] hover:border border-white mx-auto  text-white  py-3 px-6 rounded-md shadow-lg lg:mt-10 md:mt-4 text-[25px] -ml-8">
+                <button >
+                  Brochure
+                </button>
+        </Link>
+      </div>
 
       
       <div class="h-0 w-full  text-center border-gray-500 my-5">
@@ -146,7 +162,7 @@ const Details = () => {
         </div>
         <div className='leading-4'>
          
-          <li className='list-disc leading-6 py-2'>Board train from Delhi to Hometown</li>
+          <li className='list-disc leading-6 py-2'>Board train from Hometown to Delhi</li>
           <li className='list-disc leading-6 py-2'>Begin the trip and set yourself to make memories you crave</li>
           <li className='list-disc leading-6 py-2'>Over night train journey</li>
           
@@ -164,7 +180,7 @@ const Details = () => {
           <li className='list-disc leading-6 py-2'>Welcome to "Capital of India"</li>
           <li className='list-disc leading-6 py-2'>Relax for sometime in New Delhi</li>
           <li className='list-disc leading-6 py-2'>Enjoy your leisure time by exploring near by places</li>
-          <li className='list-disc leading-6 py-2'>Meet our Star gazing expert at Majnu-ka-tila</li>
+          <li className='list-disc leading-6 py-2'>Meet our Star gazing expert at Majnu-ka-tila at 8pm</li>
           <li className='list-disc leading-6 py-2'>Start your overnight bus journey to Shimla</li>
         </div>
       </div>
@@ -203,7 +219,7 @@ const Details = () => {
         <div className='leading-4'>
           <li className='list-disc leading-6 py-2'>Wake up in the middle of a quaint village overlooking snow-laden
             mountains</li>
-          <li className='list-disc leading-6 py-2'>ndulge in breakfast with a view at India's last village</li>
+          <li className='list-disc leading-6 py-2'>Indulge in breakfast with a view at India's last village</li>
           <li className='list-disc leading-6 py-2'>After breakfast, walk around river Baspa and click beautiful pictures</li>
           <li className='list-disc leading-6 py-2'>7 hour drive to Tabo village, witnessing the confluence of Satluj and
             Spiti river</li>
@@ -220,7 +236,7 @@ const Details = () => {
           <h2 className='font-bold text-[20px] my-2 mx-2 rounded-md text-black'>Day 5: Tabo - Dhankar - Pin Valley - Kaza</h2>
         </div>
         <div className='leading-4'>
-        <li className='list-disc leading-6 py-2  '>Relish the breakfast and bask in the winter sun.After Breakfast, visit Tabo
+        <li className='list-disc leading-6 py-2  '>Relish the breakfast and bask in the winter sun. After Breakfast, visit Tabo
             Monastery</li>
         <li className='list-disc leading-6 py-2'> Drive-through a never seen before terrain to reach Dhankar and explore a
             unique monastery built on a cliff</li>
@@ -316,8 +332,8 @@ const Details = () => {
       {/*Day 10*/}
 
       <div>
-        <div className='border border-gray-400  mt-5 bg-[#ADD8E6]'>
-          <h2 className='font-bold text-[20px] my-2 mx-2 rounded-md text-black'>Day 9: Delhi to Hometown</h2>
+        <div className='border border-gray-400  mt-4 bg-[#ADD8E6]'>
+          <h2 className='font-bold text-[20px] my-2 mx-2 rounded-md text-black'>Day 10: Delhi to Hometown</h2>
         </div>
         <div className='leading-4'>
         <li className='list-disc leading-6 py-2'>Reach Delhi in morning</li>
@@ -336,7 +352,7 @@ const Inclusion = () =>{
     <div  >
 
 
-      <section className='sm:w-9/12 w-11/12 mx-auto py-8 Grotesk-Normal'>
+      <section className='sm:w-9/12 w-11/12 mx-auto  Grotesk-Normal'>
         <h2 className='font-bold  md:text-[35px]  text-3xl uppercase bg-[#ADD8E6] p-2 text-black  rounded-md'>Inclusion</h2>
         <div className='leading-4'>
 
@@ -353,7 +369,7 @@ const Inclusion = () =>{
         </div>
       </section>
 
-      <section className='sm:w-9/12 w-11/12 mx-auto Grotesk-Normal'>
+      <section className='sm:w-9/12 w-11/12 mx-auto mt-8 Grotesk-Normal'>
         <h2 className='font-bold    md:text-[35px] text-3xl  p-2  rounded-md bg-[#ADD8E6] text-black'>EXCLUSIONS</h2>
         <div className='leading-4'>
 
@@ -402,21 +418,21 @@ const TicketCosting = () => {
     <div className=' sm:w-9/12 w-11/12 mx-auto py-2 Grotesk-Normal' >
       <h2 className='font-bold  md:text-[35px] text-3xl uppercase bg-[#ADD8E6] text-black p-2  rounded-md'>COSTING PER PERSON</h2>
       
-      <table className="w-full table-auto border-collapse   mt-10">
+      <table className="w-full table-auto border-collapse  mt-10">
       
         <tbody>
           <tr>
-            <td className="border border-black px-4 py-2 font-bold text-center w-1/2 text-[21px] ">Part A : Train tickets cost</td>
-            <td className="border border-black px-4 py-3  text-center font-bold text-[20px]">At Actual</td>
+            <td className="border border-white px-4 py-3  text-center font-bold text-[20px]">Hometown to Delhi</td>
+            <td className="border border-white px-4 py-2 font-bold text-center w-1/2 text-[21px] ">Part A : Train tickets cost</td>
           </tr>
           <tr>
-            <td className="border border-black px-4 py-3 font-bold text-center w-1/2 text-[20px]">Part B: Triple Sharing Ex Delhi</td>
-            <td className="border border-black px-4 py-3 text-center font-bold text-[20px]">Part A + INR 23000</td>
+            <td className="border border-white px-4 py-3 font-bold text-center w-1/2 text-[20px]">Part B: Triple Sharing Ex Delhi</td>
+            <td className="border border-white px-4 py-3 text-center font-bold text-[20px]">Part A + INR 23000</td>
             
           </tr>
           <tr>
-            <td className="border border-black px-4 py-3 font-bold text-center text-[20px] w-1/2">Part C : Twin Sharing Ex Delhi</td>
-            <td className="border border-black px-4 py-3 text-center font-bold text-[20px]">Part A + INR 25000</td>
+            <td className="border border-white px-4 py-3 font-bold text-center text-[20px] w-1/2">Part C : Twin Sharing Ex Delhi</td>
+            <td className="border border-white px-4 py-3 text-center font-bold text-[20px]">Part A + INR 25000</td>
             
           </tr>
         </tbody>
