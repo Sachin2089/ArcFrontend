@@ -49,20 +49,20 @@ const Intro = () => {
            
             <div className=' flex flex-row items-center justify-center gap-x-32 '>
               <div className='flex flex-col items-center justify-center'>
-                <div className=' rounded-md  px-1 py-2 mt-3 bg-white  text-center Grotesk-Black '>
-                  <span className='mt-4 text-lg text-black'> Batch 1: 4th to 12th May </span>
+                <div className=' rounded-md  px-2 py-2 mt-3 bg-white  text-center Grotesk-Black '>
+                  <span className='mt-4 text-lg text-black'> Batch 1: 6th to 14th July  </span>
                 </div>
                 <div className='rounded-md  px-1 py-2 mt-3 bg-white  text-center Grotesk-Black '>
-                  <span className='mt-4 text-lg text-black'> Batch 2: 1st to 8th June</span>
+                  <span className='mt-4 text-lg text-black'> Batch 2: 10th to 18th Aug</span>
                 </div>
               </div>
 
               <div className='flex flex-col  justify-center'>
                 <div className=' rounded-md  px-1 py-2 mt-3 bg-white   Grotesk-Black'>
-                  <span className='mt-4 text-lg  text-black '>Batch 3: 10th to 18th August</span>
+                  <span className='mt-4 text-lg  text-black '>Batch 3: 31st Aug to 8th Sept</span>
                 </div>
                 <div className='rounded-md  px-1 py-2 mt-3 bg-white  text-center Grotesk-Black'>
-                  <span className='mt-4 text-lg text-black'>Batch 4: 31st Aug to 8th Sept</span>
+                  <span className='mt-4 text-lg text-black'>Batch 4: 28th Sept to 6th Oct</span>
                 </div>
               </div>
             </div>
@@ -107,19 +107,19 @@ const Batchdetails = () =>{
       <div className='flex flex-col'>
         <div>
             <div className=' rounded-md  px-1 py-2 mt-3 bg-black mr-32 '>
-              <span className='mt-4 text-lg text-white'> Batch 1: 4th to 12th May</span>
+              <span className='mt-4 text-lg text-white'> Batch 1: 6th to 14th July </span>
             </div>
             <div className='rounded-md  px-1 py-2 mt-3 bg-black mr-32  '>
-              <span className='mt-4 text-lg text-white'>Batch 2: 1st to 8th June</span>
+              <span className='mt-4 text-lg text-white'> Batch 2: 10th to 18th Aug</span>
             </div>
         </div>
 
         <div>
             <div className=' rounded-md  px-1 py-2 mt-3 bg-black mr-32 '>
-              <span className='mt-4 text-lg text-white'>Batch 3: 10th to 18th August</span>
+              <span className='mt-4 text-lg text-white'>Batch 3: 31st Aug to 8th Sept</span>
             </div>
             <div className='rounded-md  px-1 py-2 mt-3 bg-black mr-32  '>
-              <span className='mt-4 text-lg text-white'>Batch 4: 31st Aug to 8th Sept</span>
+              <span className='mt-4 text-lg text-white'>Batch 4: 28th Sept to 6th Oct</span>
             </div>
         </div>
 
